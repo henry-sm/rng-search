@@ -3,5 +3,18 @@
     "manifest_version": 3,
     "name" : "Search Randomizer",
     "description" : "Randomly selects a search engine to perform a web search",
-    "version" : "0.0",
+    "version" : "0.0.0",
+
+    "permissions" : ["omnibox"],
+    "omnibox" : {
+        "keyword" : "" // think of a keyword
+    },
+    "background" : {
+        "service_worker" : "action/background.js"
+    }
+    "action" : {
+        "default_popup" : "action/popup.html",
+        "default_icon" : "action/icon.png"
+    }
+
 }
