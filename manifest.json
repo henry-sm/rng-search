@@ -3,10 +3,10 @@
     "manifest_version": 3,
     "name" : "Search Randomizer",
     "description" : "Randomly selects a search engine to perform a web search",
-    "version" : "0.0.0",
+    "version" : "0.1.0",
 
     "omnibox" : {
-        "keyword" : "rng" // think of a keyword
+        "keyword" : "rng" // think of a better keyword
     },
     "background": {
         "service_worker": "action/background.js"

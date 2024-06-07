@@ -1,0 +1,19 @@
+body{
+    background-color: #cccccc;
+  font-family : Helvetica;
+}
+
+p {
+    border-style : double;
+}
+
+table {
+    border-style : double;
+}
+
+td {
+    border: 1px solid black;
+}
+
+
+
